@@ -15,7 +15,7 @@ class Deque {
         }
         // 不为空，最小count移动过
         else if (this.lowestCount > 0) {
-            this.lowestCount--
+            this.lowestCount -= 1
             this.items[this.lowestCount] = element
         }
         // 不为空，最小count没有移动过
